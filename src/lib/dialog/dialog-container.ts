@@ -100,6 +100,7 @@ export class MatDialogContainer extends BasePortalOutlet {
     public _config: MatDialogConfig) {
 
     super();
+    this._ariaLabelledBy = _config.ariaLabelledBy || null;
   }
 
   /**
